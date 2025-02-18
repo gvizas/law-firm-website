@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Sobre Felipe C. Furlan, Advogado">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sobre | Felipe C. Furlan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navegação -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand">
+        Felipe C. Furlan
+        <span>Advogado</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html" class="active">Sobre</a></li>
+        <li><a href="services.html">Serviços</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <section class="about-section">
+      <h1>Sobre Felipe C. Furlan</h1>
+      <p>
+        Felipe C. Furlan é advogado com ampla experiência em diversas áreas do Direito,
+        oferecendo atendimento personalizado a cada cliente. Formado em [Sua Formação],
+        com pós-graduação em [Especialização], atua com comprometimento e ética para 
+        garantir os melhores resultados.
+      </p>
+      <p>
+        Ao longo da carreira, Felipe acumulou conhecimento e prática em casos complexos,
+        sempre prezando pela transparência e dedicação. Sua missão é prestar um serviço
+        de excelência, visando a satisfação e a segurança jurídica de cada cliente.
+      </p>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-logo">
+        Felipe C. Furlan
+        <span>Advogado</span>
+      </p>
+      <p class="footer-disclaimer">
+        &copy; <span id="year"></span> Felipe C. Furlan. Todos os direitos reservados. 
+        <br>
+        As informações deste site não constituem aconselhamento jurídico. O contato não implica em relação advogado-cliente.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Atualiza o ano no rodapé automaticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
