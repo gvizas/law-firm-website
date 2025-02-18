@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Serviços de advocacia de Felipe C. Furlan">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Serviços | Felipe C. Furlan</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navegação -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a href="index.html" class="brand">
+        Felipe C. Furlan
+        <span>Advogado</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Início</a></li>
+        <li><a href="about.html">Sobre</a></li>
+        <li><a href="services.html" class="active">Serviços</a></li>
+        <li><a href="contact.html">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <section class="services-section">
+      <h1>Nossas Especialidades</h1>
+      <p>Conheça as principais áreas em que atuamos:</p>
+
+      <div class="cards-grid">
+        <div class="card">
+          <h2>Direito de Família</h2>
+          <ul>
+            <li>Divórcio e separação</li>
+            <li>Guarda e alimentos</li>
+            <li>Inventários e testamentos</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Direito Trabalhista</h2>
+          <ul>
+            <li>Reclamações trabalhistas</li>
+            <li>Rescisões contratuais</li>
+            <li>Negociação coletiva</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Direito Civil</h2>
+          <ul>
+            <li>Contratos e obrigações</li>
+            <li>Responsabilidade civil</li>
+            <li>Defesa do consumidor</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Você pode adicionar mais cards ou seções aqui conforme necessário -->
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <p class="footer-logo">
+        Felipe C. Furlan
+        <span>Advogado</span>
+      </p>
+      <p class="footer-disclaimer">
+        &copy; <span id="year"></span> Felipe C. Furlan. Todos os direitos reservados. 
+        <br>
+        As informações deste site não constituem aconselhamento jurídico. O contato não implica em relação advogado-cliente.
+      </p>
+    </div>
+  </footer>
+
+  <script>
+    // Atualiza o ano no rodapé automaticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
